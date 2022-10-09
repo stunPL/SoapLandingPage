@@ -1,0 +1,154 @@
+@charset "utf-8";
+@font-face{
+	font-family: HARMONY;
+	src: url("../font/HARMONY Personal use.otf");
+}
+/* CSS Document */
+body{ 
+	background-color: #D0C397;
+}
+
+nav{
+	background-color: #574E30;
+	height: 60px;
+	position: fixed;
+	width: 100%;
+	padding: 20px 0; 
+}
+nav ul{
+	display: flex;
+	justify-content: center;
+	line-height: 60px;
+	max-width: 1200px;
+	margin: 0 auto;
+}
+nav ul li{
+	margin: 0 20px;
+	padding: 0 40px;
+}
+nav ul li a{
+	color: white;
+}
+#action{
+	background-color: #FFFFFF;
+	border-radius: 10px;
+	color: #D0C397;
+	padding: 0 30px;
+}
+#logo{
+	display: flex;
+	align-items: center;
+}
+nav ul li img{}
+
+a{
+	text-decoration: none;
+	display: block;
+}
+
+section{
+	display: flex;
+	min-height: 80vh;
+	align-items: center;
+}
+.jeden{
+	background-color: #D0C397;
+}
+.zawartosc{
+	max-width: 1200px;
+	margin: 0 auto;
+	
+}
+.naglowek{
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	
+	margin-bottom: 50px;
+	max-width: 1200px;
+}
+.naglowek hr{
+	min-width: 50px;
+	margin: 30px;
+	border: 1px white solid;
+}
+.jeden img{
+	width: 450px;
+	display: block;
+	margin: 0 auto;
+}
+.naglowek h1{
+	justify-content: center;
+	display: flex;
+	font-size: 7vw;
+	color: white;
+}
+.dwa{
+	background-color: #D6CCAA;
+}
+.dwa p{
+	color: white;
+	margin-top: 50px;
+	font-size: 30px;
+	padding: 20px;
+	margin-left: 80px;
+	margin-right: 80px;
+	column-count: 2;
+}
+.cztery{
+	background-color: #D6CCAA;
+}
+.cztery img{
+	width: 1100px;
+	display: block;
+	margin: 0 auto;
+}
+.szesc{
+	background-color: #D6CCAA;
+}
+.szesc p{
+	font-size: 3vw;
+	line-height: 100px;
+}
+.siedem{
+	display: flex;
+	flex-direction: column;
+	padding-top: 50px;
+}
+.siedem .zawartosc{
+	display: flex;
+	align-items: flex-end;
+}
+.siedem article{
+	text-align: center;
+	font-weight: 3vw;
+	color: #4D5D73;
+	line-height: 22px;
+	
+	border-radius: 10px;
+	padding: 10px;
+	margin: 10px;
+}
+.siedem article img{
+	width: 100%;
+}
+.siedem a{
+	background-color: #574E30;
+	border-radius: 10px;
+	font-weight: 400;
+	width: 100px;
+	color: white;
+	margin: 20px auto;
+	padding: 10px;
+}
+footer .zawartosc{
+	display: flex;
+	justify-content: space-around;
+
+}
+footer p{
+	text-align: center;
+}
+footer img{
+	margin: 10px;
+}
